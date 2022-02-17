@@ -2,7 +2,7 @@ from brownie import GatekeeperOne,GatekeeperOneExploit, config,accounts,web3
 
 #input the contract address
 #> contract.address
-contractAddress = '0xb6e46fbB946CD4a49aEC5377a013F740fa06237C'
+contractAddress = '0xFBdEf6955E1aC42E12a4f9694E8E6d85dE27EadB'
 player = accounts.add(config["wallets"]["from_key"])
 
 def solution():
